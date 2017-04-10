@@ -21,3 +21,7 @@ app.use(function(req, res, next) {
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
+
+app.listen(process.env.PORT || 3000, function() {
+	  console.log('Local Server : http://localhost:3000');
+});
