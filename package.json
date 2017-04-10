@@ -1,0 +1,21 @@
+{
+  "name": "service-worker-demo",
+  "version": "1.0.0",
+  "description": "service worker demo",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "postcss-cli": "^3.0.0"
+  },
+  "scripts": {
+    "start": "npm run css && node server.js",
+    "css": "postcss -u autoprefixer -r css/*",
+    "postinstall": "npm run start"
+  },
+  "author": "Santhana",
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Progressive Web App",
+  "short_name": "PWA",
+  "description": "Demo for progressive web app with push notifications, background sync etc.",
+  "start_url": "./index.html?utm=homescreen",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f5",
+  "theme_color": "#f5f5f5",
+  "icons": [{
+      "src": "./images/icons/icon-500.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/icons/icon-500.png",
+      "type": "image/png",
+      "sizes": "512x512"
+  }],
+  "author": {
+    "name": "Santhana Rajagoplan",
+    "website": "https://srajagop.github.io",
+    "github": "https://github.com/srajagop"
+  },
+  "gcm_sender_id": "103953800507",
+  "gcm_user_visible_only": true
+}
